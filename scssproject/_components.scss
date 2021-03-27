@@ -1,0 +1,85 @@
+.header-title
+{
+    font-size: 2rem;
+    color: $main-color5;
+    animation: soldansaga 1s;
+}
+
+.header-subtitle
+{
+    font-size: 1.5rem;
+    color: $main-color5;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    animation: sagdansola 1s;
+}
+
+.btn
+{
+    animation: doyuntu 1.5s;
+    text-decoration: none;
+    font-size: 1rem;
+    background-color: $main-color2;
+    color: $main-color5;
+    border-radius: 10000px;
+    padding: .25rem 1rem;
+    border-bottom: 4px solid darken($main-color2,27);
+    border-left: 4px solid darken($main-color2,27);
+    &:hover{
+        background-color: $main-color3;
+        border-bottom: 4px solid darken($main-color3,27);
+        border-left: 4px solid darken($main-color3,27);
+        color: $main-color1;
+    }
+    &:active
+    {
+        border: none;
+    }
+}
+
+.bottom-icon
+{
+    position: absolute;
+    width: 3rem;
+    bottom: 1rem;
+    animation: doyuntunotstop .7s alternate infinite;
+    
+}
+
+.logo
+{
+    font-size: 1.7rem;
+    font-family: 'Share Tech Mono';
+    transition: .5s;
+    &:hover
+    {
+        transform: rotate(1turn);
+    }
+}
+
+.action-card
+{
+    text-align: center;
+    padding: 1rem;
+    margin: .5rem 1rem;
+    border: 1px dashed $main-color4;
+    border-radius: .6rem;
+    transition: .45s ease-in-out;
+    flex: 1;
+    &:hover
+    {
+        transform: scale(1.1);
+    }
+
+    &-1,&-2,&-3
+    {
+        background-image: linear-gradient(to right bottom, rgba($main-color2,.85), rgba($main-color3,.85));
+    }
+}    
+
+.footer-text
+{
+    text-align: center;
+    font-size: 2.5rem;
+    color: $main-color4;
+}
